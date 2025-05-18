@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Responsiva</title>
+</head>
+<body>
+  
+    <!-- Aquí va todo el contenido (textos, imágenes, etc.) -->
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Mi Sitio</a>
+        <!-- Botón para móviles -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Enlaces -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <!-- Menú lateral (ocupa 3 columnas en pantallas grandes) -->
+        <div class="col-md-3 col-12 bg-light p-3">
+            <h4>Menú</h4>
+            <ul class="nav flex-column">
+                <li class="nav-item"><a class="nav-link" href="#">Opción 1</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Opción 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Opción 3</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Opción 4</a></li>
+            </ul>
+        </div>
+
+        <!-- Contenido principal (ocupa 9 columnas) -->
+        <div class="col-md-9 col-12 p-4">
+            <h1>¡Hola Mundo!</h1>
+        </div>
+    </div>
+</div>
+<form>
+    <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre">
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="email">
+    </div>
+    <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+<button class="btn btn-primary">Azul</button>
+<button class="btn btn-danger">Rojo</button>
+<button class="btn btn-success">Verde</button>
+<button class="btn btn-warning">Amarillo</button>
+<button class="btn btn-dark">Negro</button>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Edad</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Ana</td>
+            <td>ana@example.com</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Luis</td>
+            <td>luis@example.com</td>
+            <td>30</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
